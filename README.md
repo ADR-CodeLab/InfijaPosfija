@@ -18,6 +18,8 @@
    - :arrow_left: Prefija --> [resultado de la conversión prefija]
    - :arrow_right: Posfija --> [resultado de la conversión posfija]
 
+:arrow_right_hook: **Importante:** Los corchetes `[ ]` y lo que está dentro de los corchetes no deben ser parte de la salida; simplemente ilustran lo que debe ir en su lugar.
+
    **Ejemplo:**
 
    Entrada caso 1: 
@@ -25,26 +27,25 @@
 
    Salida: 
    - :arrow_right: Infija --> (a+b)*(c-d)+(e/f)
-   - :arrow_left: Prefija --> [resultado de la conversión prefija]
-   - :arrow_right: Posfija --> [resultado de la conversión posfija]
+   - :arrow_left: Prefija --> +*+ab-cd/ef
+   - :arrow_right: Posfija --> ab+cd-*ef/+
 
    Entrada caso 2: 
    x+(y-z)*(w/v)
 
    Salida: 
    - :arrow_right: Infija --> x+(y-z)*(w/v)
-   - :arrow_left: Prefija --> [resultado de la conversión prefija]
-   - :arrow_right: Posfija --> [resultado de la conversión posfija]
+   - :arrow_left: Prefija --> +x*-yz/wv
+   - :arrow_right: Posfija --> xyz-wv/*+
 
    Entrada caso 3: 
    a*b-c/d
 
    Salida: 
    - :arrow_right: Infija --> a*b-c/d
-   - :arrow_left: Prefija --> [resultado de la conversión prefija]
-   - :arrow_right: Posfija --> [resultado de la conversión posfija]
+   - :arrow_left: Prefija --> -*ab/cd
+   - :arrow_right: Posfija --> ab*cd/-
   
-:arrow_right_hook: **Importante:** Los corchetes `[ ]` y lo que está dentro de los corchetes no deben ser parte de la salida; simplemente ilustran lo que debe ir en su lugar.
 
 3. :computer: Asegúrate de codificar el programa en Java utilizando el editor Geany.
 
