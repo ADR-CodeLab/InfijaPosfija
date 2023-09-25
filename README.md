@@ -23,28 +23,28 @@
    **Ejemplo:**
 
    Entrada caso 1: 
-   (a+b)*(c-d)+(e/f)
+   $(a+b)*(c-d)+(e/f)$
 
    Salida: 
-   - :arrow_right: Infija --> (a+b)*(c-d)+(e/f)
-   - :arrow_left: Prefija --> +*+ab-cd/ef
-   - :arrow_right: Posfija --> ab+cd-*ef/+
+   - :arrow_right: Infija --> $(a+b)*(c-d)+(e/f)$
+   - :arrow_left: Prefija --> $+*+ab-cd/ef$
+   - :arrow_right: Posfija --> $ab+cd-*ef/+$
 
    Entrada caso 2: 
-   x+(y-z)*(w/v)
+   $x+(y-z)*(w/v)$
 
    Salida: 
-   - :arrow_right: Infija --> x+(y-z)*(w/v)
-   - :arrow_left: Prefija --> +x*-yz/wv
-   - :arrow_right: Posfija --> xyz-wv/*+
+   - :arrow_right: Infija --> $x+(y-z)*(w/v)$
+   - :arrow_left: Prefija --> $+x*-yz/wv$
+   - :arrow_right: Posfija --> $xyz-wv/*+$
 
    Entrada caso 3: 
-   a*b-c/d
+   $a*b-c/d$
 
    Salida: 
-   - :arrow_right: Infija --> a*b-c/d
-   - :arrow_left: Prefija --> -*ab/cd
-   - :arrow_right: Posfija --> ab*cd/-
+   - :arrow_right: Infija --> $a*b-c/d$
+   - :arrow_left: Prefija --> $-*ab/cd$
+   - :arrow_right: Posfija --> $ab*cd/-$
   
 
 3. :computer: Asegúrate de codificar el programa en Java utilizando el editor Geany.
